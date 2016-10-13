@@ -7,6 +7,3 @@ export default class App extends Component {
     );
   }
 }
-
-
-// http://reduxblog.herokuapp.com/
