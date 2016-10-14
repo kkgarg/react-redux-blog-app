@@ -17,7 +17,7 @@ export function fetchPosts() {
 
 
 export function createPost(props) {
-  const reqeust = axios.post(POSTS_URL, props);
+  const request = axios.post(POSTS_URL, props);
 
   return {
     type: CREATE_POST,
